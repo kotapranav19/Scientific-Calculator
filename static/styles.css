@@ -1,0 +1,63 @@
+.calculator {
+    width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #458dbd;
+    border-radius: 5px;
+    background-color: #235a7e;
+    box-sizing: border-box;
+}
+body {
+    background-image: url('https://png.pngtree.com/background/20211215/original/pngtree-cartoon-satellite-ruler-calculator-linear-education-background-picture-image_1458755.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    box-sizing: border-box;
+    background-color: #d9dbd7;
+    text-align: right;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+table td {
+    padding: 10px;
+    text-align: center;
+}
+
+table td input[type="button"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #b2b4b1;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+table tr:last-child td input[type="button"] {
+    background-color: #b2b4b1;
+    color: #333;
+}
+input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #b2b4b1;
+    color: rgb(8, 8, 8);
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #b2b4b1;
+  }
